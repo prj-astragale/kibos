@@ -1,15 +1,13 @@
-.inlake/
+# Works in progress
+_wips/*
+devdocs/*
+_tmp/*
 
-# Default volumes
-data-graphdb/
-data-minio/
-data-oxygraph/
-data43/
+# vscode
+*.code-workspace
 
-# Clones and images
-image-graphdb_free_980ee/
 
-## python.gitignore template
+### FROM https://github.com/github/gitignore/blob/main/Python.gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -36,7 +34,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-zoo_*
 MANIFEST
 
 # PyInstaller
@@ -132,14 +129,14 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# # Environments
+# Environments
 # .env
-# .venv
-# env/
-# venv/
-# ENV/
-# env.bak/
-# venv.bak/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject

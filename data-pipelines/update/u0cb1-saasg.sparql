@@ -1,0 +1,26 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+
+INSERT {
+    <$__uri__s7> a abcrmsci:S7_Simulation ;
+        rdfs:label "$simulation_label" ;
+        abcrmax:Px2_has_type <$simulation_type_uri> ;
+        abcrmax:Jx1_used_as_premice <$builtwork_uri> ;     # specific bw
+        abcrmax:Jx1_used_as_premice ?modelisation_uri  ;   # geometric modelisation
+        abcrmax:Jx2_concluded_that <$__uri__e59> .         # simulation avatar archive
+    
+    <$__uri__e59> a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  "$resource_uri" ;
+        rdfs:label "$file_label" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" .
+
+} WHERE {
+    ?modelisation_uri abcrmax:Jx2_concluded_that <$geom_uri> .
+}

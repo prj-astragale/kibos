@@ -1,0 +1,29 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX om:          <http://astragale.cnrs.fr/owl/om-2/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+INSERT {  
+    <$__uri__s5> a abcrmsci:S5_Inference_Making ;
+        abcrmax:Px2_has_type <$inference_type_uri> ;
+        abcrmax:Jx1_used_as_premice <$observation_uri> ;    # observation annotation
+        abcrmax:Jx1_used_as_premice ?geom_anno_uri ;    # annotation geometry index
+        abcrmax:Jx1_used_as_premice ?feat_uri ;             # observed feature (overkill)
+        abcrmax:Jx2_concluded_that <$__uri__e59> ;         # quantitative damage
+        abcrmax:Jx2_concluded_that <$damaging_type_uri> .   # qualitative damage
+
+    <$simulation_uri> abcrmax:Jx1_used_as_premice <$__uri__s5> .
+    ?feat_uri abcrmax:Px2_has_type <$damaging_type_uri> .
+
+    <$__uri__e59> a abcrm:E59_Primitive_Value ;
+        om:quantity <$damaging_quantity_uri> ;
+        om:value "$damaging_value" .
+} WHERE {
+    <$observation_uri> abcrmsci:O8_observed ?feat_uri ;
+        abcrmsci:O16_observed_value ?feature_type_uri, ?geom_anno_uri  .
+    
+    ?geom_anno_uri a abcrm:E59_Primitive_Value .
+}

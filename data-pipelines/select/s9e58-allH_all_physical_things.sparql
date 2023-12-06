@@ -1,0 +1,7 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm: <http://astragale.cnrs.fr/owl/abcrm/>
+SELECT ?phything_uri ?phything_label
+WHERE {
+    ?phything_uri a/rdfs:subClassOf* abcrm:E18_Physical_Thing .
+    ?phything_uri rdfs:label ?phything_label .
+} LIMIT 20

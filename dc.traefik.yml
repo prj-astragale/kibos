@@ -1,0 +1,58 @@
+services:
+  traefik:
+    image: traefik:v2.10
+    container_name: traefik
+    environment:
+      - .env
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - astraglob
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ${TRAEFIK_LOG_PATH}:/var/log
+      # - ${CERTS_PATH}:/letsencrypt                                                      # en-ligne/prod
+    command:
+      - --api.dashboard=true
+      ## LOG - Enable log & accesslog
+      - --accesslog=true
+      - --log.level=INFO
+      - --log.filepath=/var/log/traefik.log
+      - --accesslog.filepath=/var/log/traefik-access.log
+      ## ENTRYPOINTS
+      ### web (http)
+      - --entrypoints.web.address=:80
+      ### websecure (https)
+      # - --entrypoints.websecure.address=:443                                            # en-ligne/prod
+      #### websecure-certs
+      # - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge=true"         
+      # - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge.entrypoint=web"     # en-ligne/prod
+      # - "--certificatesresolvers.myhttpchallenge.acme.email=${CERTS_ACME_MAIL}"         # en-ligne/prod
+      # - "--certificatesresolvers.myhttpchallenge.acme.storage=/letsencrypt/acme.json"   # en-ligne/prod
+      #### websecure-middleware de redirection
+      # - --entrypoints.web.http.redirections.entrypoint.to=websecure                     # en-ligne/prod
+      # - --entryPoints.web.http.redirections.entrypoint.scheme=https                     # en-ligne/prod
+      ## PROVIDERS
+      ### Static
+      # - --providers.file.filename=/etc/traefik/conf.traefik_local_v043.yml
+      ### Docker
+      - --providers.docker=true
+      - --providers.docker.network=astraglob
+      - --providers.docker.exposedByDefault=false
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.mydashboard.entrypoints=${TRAEFIK_DEFAULT_SERVICES_ENTRYPOINT}
+      - traefik.http.routers.mydashboard.rule=Host(`traefik.${HOST_DOMAIN}`)
+      - traefik.http.routers.mydashboard.service=api@internal
+
+      # - traefik.http.routers.mydashboard.middlewares=mybasicauth                        # en-ligne/prod
+      # - traefik.http.middlewares.mybasicauth.basicauth.users=${TRAEFIK_BASIC_AUTH_USERS}
+
+# volumes:
+#   letsencrypt:
+#     name: letsencrypt
+
+networks:
+  astraglob:
+    name: astraglob

@@ -1,0 +1,53 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+SELECT *
+WHERE {
+  	<$bw_uri> a abcrm:E22_Human_Made_Object ;
+        rdfs:label ?bw_label ;
+        abcrm:P56_bears_feature ?feat_uri .
+     
+    ?feat_uri rdfs:label ?feature_label ;
+        abcrmax:Px2_has_type ?feature_type_uri .
+    
+    OPTIONAL {
+        ?observation_uri abcrmsci:O8_observed ?feat_uri ;
+             abcrmsci:O16_observed_value ?feature_type_uri, ?geom_anno_uri .
+        
+        ?geom_anno_uri a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  ?geom_anno_path ;
+        rdfs:label  ?file_label ;
+        dc:creator  ?file_creator ;
+        dc:format   ?file_format ;
+        dc:date     ?file_date ;
+        abcrmax:Qx5_is_defined_in/rdfs:label ?scrs_geom_anno_label .
+    
+    ?sp6_anno_uri abcrmax:Px168_place_is_defined_by ?geom_anno_uri ;
+                  abcrm:P89_falls_within/abcrmax:Px168_place_is_defined_by ?geom_uri .
+
+        # OPTIONAL {
+        #     skoslabel
+        # }
+    }
+    
+    OPTIONAL {
+        ?inference_uri abcrmax:Jx2_concluded_that ?feature_type_uri ;
+                   abcrmax:Jx1_used_as_premice ?feat_uri, ?geom_anno_uri .
+        
+        ?geom_anno_uri a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  ?geom_anno_path ;
+        rdfs:label  ?file_label ;
+        dc:creator  ?file_creator ;
+        dc:format   ?file_format ;
+        dc:date     ?file_date ;
+        abcrmax:Qx5_is_defined_in/rdfs:label ?scrs_geom_anno_label .
+    
+    ?sp6_anno_uri abcrmax:Px168_place_is_defined_by ?geom_anno_uri ;
+                  abcrm:P89_falls_within/abcrmax:Px168_place_is_defined_by ?geom_uri .
+    }
+    
+    
+}

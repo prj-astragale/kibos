@@ -1,0 +1,20 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+SELECT *
+WHERE {
+  	<$bw_uri> a abcrm:E22_Human_Made_Object ;
+        rdfs:label ?bw_label .
+    
+    ?simulation_uri a abcrmsci:S7_Simulation ;
+        rdfs:label ?simulation_label ;
+        abcrmax:Jx1_used_as_premice <$bw_uri> ;
+        abcrmax:Jx2_concluded_that ?simularchive_uri .
+    
+    ?simularchive_uri a abcrm:E59_Primitive_Value ;
+        rdfs:label  ?file_label ;
+        abcrmax:Px90_has_value ?simularchive_path .
+}

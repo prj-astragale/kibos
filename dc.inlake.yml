@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  inlake:
+    container_name: inlake
+    restart: unless-stopped # on-failure:5 
+    build: ${BUILD_PATH_INLAKE}
+    volumes:
+      - ${BUILD_PATH_INLAKE}/config_inlake-kibos.cfg:/code/config_inlake.cfg
+      - ${DATAPIPE_SPARQL_SELECT_PATH}:/data/sparql-select
+    env_file:
+      - .env
+    environment:
+      - KAFKA_DISABLE_CONNECTION=True
+      - KAFKA_BOOTSTRAP_SERVER=broker:29092
+      - MINIO_DOCKER_HOST=http://minio:9000
+      - MINIO_HOST=${MINIO_HOST}
+      # - MINIO_ROOT_USER=${MINIO_ROOT_USER}
+      # - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
+      - SPARQL_ENDPOINT_QUERY=${GRAPHDB_DOCKER_ENDPOINT_QUERY}
+      - SPARQL_ENDPOINT_UPDATE=${GRAPHDB_DOCKER_ENDPOINT_UPDATE}
+      - SPARQL_DEFAULT_ROOT_URI=${SPARQL_DEFAULT_ROOT_URI}
+      - SPARQL_DEFAULT_NAMED_GRAPH_ROOT_URI=${SPARQL_DEFAULT_NAMED_GRAPH_ROOT_URI}
+      - SPARQL_DEFAULT_NAMED_GRAPH_NAME=agraphe
+
+    ports:
+      - "81:80"
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.myinlake.entrypoints=${TRAEFIK_DEFAULT_SERVICES_ENTRYPOINT}
+      - traefik.http.routers.myinlake.rule=Host(`inlake.${HOST_DOMAIN}`)
+      - traefik.http.routers.myinlake.service=myinlake
+      - traefik.http.services.myinlake.loadbalancer.server.port=80
+
+      # - traefik.http.routers.myinlake.middlewares=mybasicauth                   # en-ligne/prod
+    networks:
+      - astraglob
+
+networks:
+  astraglob:
+    name: astraglob

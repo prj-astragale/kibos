@@ -1,0 +1,64 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$__uri__sp4_primitive> a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_geom_label" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_geom_label" .})
+};
+INSERT {
+    <$__uri__sp4_descriptive> a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_label" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_label" .})
+};
+
+
+INSERT {
+    <$__uri__bw>  a abcrm:E22_Human_Made_Object ;
+        rdfs:label "$builtwork_part_label" ;
+        abcrmax:Px2_has_type <$builtwork_type_uri> .
+    
+    <$__uri__e53>  a abcrm:E53_Place ;
+        rdfs:label "place of $builtwork_part_label" .
+    <$__uri__bw> abcrm:P53_has_former_or_current_location <$__uri__e53> .
+
+    <$__uri__bw>    abcrm:P46i_forms_part_of <$builtwork_uri> .
+    <$__uri__e53>   abcrm:P89_falls_within ?e53_existing .
+
+    <$__uri__e16> a abcrmsci:S7_Categorical_Hypothesis_Building ;
+        abcrm:P7_took_place_at ?e53_existing ;
+        abcrmax:Jx1_used_as_premice <$builtwork_uri> ;
+        abcrmax:Jx2_concluded_that <$__uri__e59> ;
+        abcrmax:Jx2_concluded_that <$builtwork_type_uri> ;
+        abcrmax:Px2_has_type <$model_type_uri> .
+
+    <$__uri__sp6> a abcrmgeo:SP6_Declarative_Place ;
+        abcrmgeo:Q11_approximates ?e53_existing ;
+        abcrmax:Px168_place_is_defined_by <$__uri__e59> ;
+        abcrmax:Qx5_is_defined_in ?sp4_descriptive_uri .
+
+    <$__uri__e59> a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  "$resource_uri" ;
+        rdfs:label "$file_label" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        abcrmax:Qx5_is_defined_in ?sp4_primitive_uri .
+    
+    ?sp4_descriptive_uri abcrmax:Qx20_is_related_to ?sp4_primitive_uri .
+
+} WHERE {
+    ?sp4_primitive_uri a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_geom_label" .
+
+    ?sp4_descriptive_uri a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_label" .
+    
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?e53_existing .
+}

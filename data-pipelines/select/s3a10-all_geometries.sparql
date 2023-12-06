@@ -1,0 +1,25 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+SELECT ?bw_label ?geom_uri ?geom_path ?file_label ?file_creator ?file_format ?file_date ?scrs_label ?scrs_geom_label
+WHERE {
+  	<$bw_uri> a abcrm:E22_Human_Made_Object ;
+        rdfs:label ?bw_label ; #{{ e22_prj_label }} . # demo_uc11="Fort Écluse de Léaz" .
+        abcrm:P53_has_former_or_current_location ?src_e53 .
+    
+    ?sp6 abcrmgeo:Q11_approximates ?src_e53 ;
+        abcrmax:Qx5_is_defined_in/rdfs:label ?scrs_label ;
+        abcrmax:Px168_place_is_defined_by ?geom_uri .
+    
+    ?geom_uri abcrmax:Px90_has_value  ?geom_path ;
+        rdfs:label  ?file_label ;
+        dc:creator  ?file_creator ;
+        dc:format   ?file_format ;
+        dc:date     ?file_date ;
+        abcrmax:Qx5_is_defined_in ?sp4 .
+    
+    ?sp4 rdfs:label ?scrs_geom_label .
+}

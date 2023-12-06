@@ -1,0 +1,8 @@
+[submodule "inlake"]
+	path = inlake
+	url = https://lmgc-crocc:glpat-ugeQkTsS43LMLTA1axHf@git-xen.lmgc.univ-montp2.fr/gros/inlake.git
+	branch = master
+[submodule "streamgraphiti"]
+	path = streamgraphiti
+	url = https://lmgc-crocc:glpat-vbbY3s1UeqHMnKWHT2z2@git-xen.lmgc.univ-montp2.fr/gros/astragale-streamgraphiti.git
+	branch = main

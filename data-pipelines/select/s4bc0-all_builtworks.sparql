@@ -1,0 +1,8 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm: <http://astragale.cnrs.fr/owl/abcrm/>
+SELECT ?bw_uri ?bw_label
+WHERE {
+    FILTER NOT EXISTS { ?bw_uri  abcrm:P46i_forms_part_of  [] } 
+  	?bw_uri a abcrm:E22_Human_Made_Object .
+    ?bw_uri rdfs:label ?bw_label .
+} LIMIT 20

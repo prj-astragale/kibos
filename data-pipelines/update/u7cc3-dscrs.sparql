@@ -1,0 +1,9 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm: <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo: <http://astragale.cnrs.fr/owl/abcrmgeo/>
+
+INSERT DATA {
+  <$__uri__sp4>  a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+    rdfs:label "$scrs_label" ;
+    rdfs:comment "$scrs_comment" .
+}

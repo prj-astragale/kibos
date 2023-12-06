@@ -1,0 +1,529 @@
+<http://astragale.cnrs.fr/triples/80e55e06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7f9c9625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3458035f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b06f5f88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/56581d57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP4_Spatial_Coordinate_Reference_System> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/71ed0f9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E16_Measurement> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2705d313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eaf9c325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S7_Categorical_Hypothesis_Building> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d5a58726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f8210704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP4_Spatial_Coordinate_Reference_System> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b3bb15a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ca32e6fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S7_Categorical_Hypothesis_Building> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ae47edab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7afd47e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/15bb9826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e28e0fc2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E16_Measurement> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0afbb7e0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/845a775f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39f16420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4e1e864a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a84e4739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/64236b98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3008a4f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d81301e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2a19ecab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/52b2c570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E16_Measurement> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3c96fd55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/50af6545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d7fc17ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98b8cc6a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d9b9f40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98d61d07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/029b83f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ab4ac9d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/84e72178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8cfbf745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E16_Measurement> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee2d6dc3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d87c671c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b752b6c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/73c2d1d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b461b1ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/66fb7e59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd1f74bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f3dae661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/022ec891> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a0b14157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E16_Measurement> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f24c3442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0bc163af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c0aae71a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34120bed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d9e6b0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4dda928d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e9bc2f14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ce76568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S7_Categorical_Hypothesis_Building> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3184ca33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S7_Simulation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fcdb4fb3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S5_Inference_Making> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34aaf5ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S5_Inference_Making> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1faa2afb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c4717158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E22_Human_Made_Object> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/44c2bca9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1cb84580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E16_Measurement> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/76d77453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ad811951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1f0acf77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7bfb6bc9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S4_Observation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/354e4c31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E26_Physical_Feature> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e4ae2769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E53_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8334dff5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/31071dd5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S7_Categorical_Hypothesis_Building> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a6606821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmgeo/SP6_Declarative_Place> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S7_Simulation> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d4a62819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S5_Inference_Making> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9dd7c21d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrmsci/S5_Inference_Making> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/df7ab462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://astragale.cnrs.fr/owl/abcrm/E59_Primitive_Value> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/80e55e06> <http://www.w3.org/2000/01/rdf-schema#label> "Voûte en berceau-14e" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7f9c9625> <http://www.w3.org/2000/01/rdf-schema#label> "place of Voûte en berceau-14e" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3458035f> <http://www.w3.org/2000/01/rdf-schema#label> "Pont Transbordeur-f69" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b06f5f88> <http://www.w3.org/2000/01/rdf-schema#label> "place of Pont Transbordeur-f69" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/56581d57> <http://www.w3.org/2000/01/rdf-schema#label> "Default SCRS" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://www.w3.org/2000/01/rdf-schema#label> "gameaps_Pont Transbordeur-f69.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://www.w3.org/2000/01/rdf-schema#label> "gamodps_Pont Transbordeur-f69.stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f8210704> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract SCRS" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://www.w3.org/2000/01/rdf-schema#label> "gamodaps_Pont Transbordeur-f69.paramstl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7afd47e7> <http://www.w3.org/2000/01/rdf-schema#label> "Pont Transbordeur-e63" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/15bb9826> <http://www.w3.org/2000/01/rdf-schema#label> "place of Pont Transbordeur-e63" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://www.w3.org/2000/01/rdf-schema#label> "gameaps_Pont Transbordeur-e63.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Desquamation dûes aux infiltrations" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-c51d4987.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/845a775f> <http://www.w3.org/2000/01/rdf-schema#label> "Desquamation dûes aux infiltrations" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39f16420> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Desquamation dûes aux infiltrations" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Desquamation dûes aux infiltrations" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-66ced2d6.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a84e4739> <http://www.w3.org/2000/01/rdf-schema#label> "Desquamation dûes aux infiltrations" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/64236b98> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Desquamation dûes aux infiltrations" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d81301e> <http://www.w3.org/2000/01/rdf-schema#label> "Voûte en berceau-379" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2a19ecab> <http://www.w3.org/2000/01/rdf-schema#label> "place of Voûte en berceau-379" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://www.w3.org/2000/01/rdf-schema#label> "gameaps_Voûte en berceau-379.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-48c95140.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/50af6545> <http://www.w3.org/2000/01/rdf-schema#label> "Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d7fc17ea> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-60786af8.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d9b9f40> <http://www.w3.org/2000/01/rdf-schema#label> "Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98d61d07> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ab4ac9d> <http://www.w3.org/2000/01/rdf-schema#label> "Voûte en berceau-157" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/84e72178> <http://www.w3.org/2000/01/rdf-schema#label> "place of Voûte en berceau-157" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://www.w3.org/2000/01/rdf-schema#label> "gameaps_Voûte en berceau-157.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-c644ff12.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d87c671c> <http://www.w3.org/2000/01/rdf-schema#label> "Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b752b6c3> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-3fbd04ef.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b461b1ba> <http://www.w3.org/2000/01/rdf-schema#label> "Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/66fb7e59> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f3dae661> <http://www.w3.org/2000/01/rdf-schema#label> "Arc-boutant T15-47f" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/022ec891> <http://www.w3.org/2000/01/rdf-schema#label> "place of Arc-boutant T15-47f" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://www.w3.org/2000/01/rdf-schema#label> "gameaps_Arc-boutant T15-47f.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Fissure bleue" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-b9fc3b27.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0bc163af> <http://www.w3.org/2000/01/rdf-schema#label> "Fissure bleue" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c0aae71a> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Fissure bleue" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-98d20f1a.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d9e6b0c> <http://www.w3.org/2000/01/rdf-schema#label> "Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4dda928d> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Desquamation totale" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://www.w3.org/2000/01/rdf-schema#label> "gamodps_Arc-boutant T15-47f.stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://www.w3.org/2000/01/rdf-schema#label> "DEM poussée active Arc-boutant T15-47f" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fcdb4fb3> <http://www.w3.org/2000/01/rdf-schema#label> "saasg_Arc-boutant T15-47f_DEM_simulation.tar.bz2" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c4717158> <http://www.w3.org/2000/01/rdf-schema#label> "Arc de Triomphe-266" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/44c2bca9> <http://www.w3.org/2000/01/rdf-schema#label> "place of Arc de Triomphe-266" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://www.w3.org/2000/01/rdf-schema#label> "gameaps_Arc de Triomphe-266.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-d79df549.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ad811951> <http://www.w3.org/2000/01/rdf-schema#label> "Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1f0acf77> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Fissure ancienne" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://www.w3.org/2000/01/rdf-schema#label> "obs-Desquamation en grosses plaques" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://www.w3.org/2000/01/rdf-schema#label> "aioli-0e31e9c8.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/354e4c31> <http://www.w3.org/2000/01/rdf-schema#label> "Desquamation en grosses plaques" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e4ae2769> <http://www.w3.org/2000/01/rdf-schema#label> "pl-Desquamation en grosses plaques" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://www.w3.org/2000/01/rdf-schema#label> "gamodps_Arc de Triomphe-266.stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://www.w3.org/2000/01/rdf-schema#label> "DEM poussée active Arc de Triomphe-266" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d4a62819> <http://www.w3.org/2000/01/rdf-schema#label> "saasg_Arc de Triomphe-266_DEM_simulation.tar.bz2" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://purl.org/dc/elements/1.1/creator> "Rémy Mozul" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://purl.org/dc/elements/1.1/creator> "Frédéric Dubois" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://purl.org/dc/elements/1.1/creator> "Pierre Hallot" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://purl.org/dc/elements/1.1/creator> "Paul Taforel" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://purl.org/dc/elements/1.1/creator> "Paul Taforel" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://purl.org/dc/elements/1.1/creator> "Antoine Gros" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://purl.org/dc/elements/1.1/creator> "Paul Taforel" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://purl.org/dc/elements/1.1/creator> "Anaïs Guillem" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://purl.org/dc/elements/1.1/creator> "Frédéric Dubois" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://purl.org/dc/elements/1.1/creator> "Stéphane Morel" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://purl.org/dc/elements/1.1/creator> "Livio De Luca" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://purl.org/dc/elements/1.1/creator> "Antoine Gros" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://purl.org/dc/elements/1.1/creator> "Anaïs Guillem" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://purl.org/dc/elements/1.1/creator> "Frédéric Dubois" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://purl.org/dc/elements/1.1/creator> "Pierre Hallot" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://purl.org/dc/elements/1.1/creator> "Livio De Luca" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fcdb4fb3> <http://purl.org/dc/elements/1.1/creator> "Livio De Luca" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://purl.org/dc/elements/1.1/creator> "Antoine Gros" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://purl.org/dc/elements/1.1/creator> "Paul Taforel" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://purl.org/dc/elements/1.1/creator> "Kevin Jacquot" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://purl.org/dc/elements/1.1/creator> "Stéphane Morel" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d4a62819> <http://purl.org/dc/elements/1.1/creator> "Frédéric Dubois" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://purl.org/dc/elements/1.1/format> ".stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://purl.org/dc/elements/1.1/format> ".paramstl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://purl.org/dc/elements/1.1/format> ".stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fcdb4fb3> <http://purl.org/dc/elements/1.1/format> ".bz2" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://purl.org/dc/elements/1.1/format> ".pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://purl.org/dc/elements/1.1/format> ".stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d4a62819> <http://purl.org/dc/elements/1.1/format> ".bz2" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:25:01" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:25:03" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:25:04" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:25:22" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:25:24" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:25:25" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:29:03" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:29:04" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:29:05" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:30:42" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:30:43" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:30:44" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:31:08" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:31:09" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:31:10" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:31:12" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fcdb4fb3> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:31:13" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:35:02" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:35:04" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:35:05" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:35:06" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d4a62819> <http://purl.org/dc/elements/1.1/date> "2023-12-04 17:35:07" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/80e55e06> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/7f9c9625> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3458035f> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7afd47e7> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/15bb9826> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/845a775f> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/39f16420> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a84e4739> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/64236b98> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d81301e> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/2a19ecab> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/50af6545> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/d7fc17ea> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d9b9f40> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/98d61d07> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ab4ac9d> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/84e72178> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d87c671c> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/b752b6c3> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b461b1ba> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/66fb7e59> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f3dae661> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/022ec891> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0bc163af> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/c0aae71a> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d9e6b0c> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/4dda928d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c4717158> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/44c2bca9> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ad811951> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/1f0acf77> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/354e4c31> <http://astragale.cnrs.fr/owl/abcrm/P53_has_former_or_current_location> <http://astragale.cnrs.fr/triples/e4ae2769> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2705d313> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d5a58726> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ae47edab> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0afbb7e0> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/15bb9826> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4e1e864a> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/39f16420> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3008a4f4> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/64236b98> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3c96fd55> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/2a19ecab> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98b8cc6a> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/d7fc17ea> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/029b83f3> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/98d61d07> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee2d6dc3> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/84e72178> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/73c2d1d1> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/b752b6c3> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd1f74bb> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/66fb7e59> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f24c3442> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/022ec891> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34120bed> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/c0aae71a> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e9bc2f14> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/4dda928d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3184ca33> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/022ec891> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/76d77453> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/44c2bca9> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7bfb6bc9> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/1f0acf77> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8334dff5> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/e4ae2769> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a6606821> <http://astragale.cnrs.fr/owl/abcrmgeo/Q11_approximates> <http://astragale.cnrs.fr/triples/44c2bca9> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2705d313> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/205b62de> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d5a58726> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/4bfca320> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ae47edab> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/b61ea97f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0afbb7e0> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/eca874ea> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4e1e864a> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/9cbac2c2> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3008a4f4> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/6620382f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3c96fd55> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/c58d57f8> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98b8cc6a> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/d6cad029> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/029b83f3> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/d8172592> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee2d6dc3> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/3d0de94d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/73c2d1d1> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/cd15553c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd1f74bb> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/ab138899> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f24c3442> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/03afe05b> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34120bed> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/d0fd89d6> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e9bc2f14> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/851ffd38> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3184ca33> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/607ece03> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/76d77453> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/bd1e25c5> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7bfb6bc9> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/980505fa> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8334dff5> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/4034008b> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a6606821> <http://astragale.cnrs.fr/owl/abcrmax/Px168_place_is_defined_by> <http://astragale.cnrs.fr/triples/d335f13d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2705d313> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d5a58726> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/f8210704> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ae47edab> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0afbb7e0> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4e1e864a> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3008a4f4> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3c96fd55> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98b8cc6a> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/029b83f3> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee2d6dc3> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/73c2d1d1> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd1f74bb> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f24c3442> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34120bed> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e9bc2f14> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3184ca33> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/76d77453> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7bfb6bc9> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8334dff5> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a6606821> <http://astragale.cnrs.fr/owl/abcrmax/Qx5_is_defined_in> <http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/71ed0f9e> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/205b62de> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e28e0fc2> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/eca874ea> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/9cbac2c2> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/6620382f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/52b2c570> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/c58d57f8> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/d6cad029> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/d8172592> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8cfbf745> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/3d0de94d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/cd15553c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/ab138899> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a0b14157> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/03afe05b> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/d0fd89d6> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/851ffd38> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1cb84580> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/bd1e25c5> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/980505fa> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://astragale.cnrs.fr/owl/abcrmsci/O16_observed_value> <http://astragale.cnrs.fr/triples/4034008b> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/205b62de> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gameaps_Pont Transbordeur-f69.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4bfca320> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gamodps_Pont Transbordeur-f69.stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b61ea97f> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gamodaps_Pont Transbordeur-f69.paramstl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eca874ea> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gameaps_Pont Transbordeur-e63.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9cbac2c2> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-c51d4987.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6620382f> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-66ced2d6.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c58d57f8> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gameaps_Voûte en berceau-379.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d6cad029> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-48c95140.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d8172592> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-60786af8.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d0de94d> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gameaps_Voûte en berceau-157.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd15553c> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-c644ff12.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ab138899> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-3fbd04ef.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/03afe05b> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gameaps_Arc-boutant T15-47f.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d0fd89d6> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-b9fc3b27.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/851ffd38> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-98d20f1a.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/607ece03> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gamodps_Arc-boutant T15-47f.stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fcdb4fb3> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-anno-aioli/saasg_Arc-boutant T15-47f_DEM_simulation.tar.bz2" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/bd1e25c5> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gameaps_Arc de Triomphe-266.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/980505fa> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-d79df549.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4034008b> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/aioli-0e31e9c8.pts" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d335f13d> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-3d-geom/gamodps_Arc de Triomphe-266.stl" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d4a62819> <http://astragale.cnrs.fr/owl/abcrmax/Px90_has_value> "s3://astra-anno-aioli/saasg_Arc de Triomphe-266_DEM_simulation.tar.bz2" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/71ed0f9e> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eaf9c325> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ca32e6fd> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/b06f5f88> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e28e0fc2> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/15bb9826> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/39f16420> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/64236b98> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/52b2c570> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/2a19ecab> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/d7fc17ea> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/98d61d07> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8cfbf745> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/84e72178> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/b752b6c3> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/66fb7e59> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a0b14157> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/022ec891> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/c0aae71a> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/4dda928d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ce76568> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/022ec891> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1cb84580> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/44c2bca9> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/1f0acf77> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/e4ae2769> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/31071dd5> <http://astragale.cnrs.fr/owl/abcrm/P7_took_place_at> <http://astragale.cnrs.fr/triples/44c2bca9> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/56581d57> <http://astragale.cnrs.fr/owl/abcrmax/Qx20_is_related_to> <http://astragale.cnrs.fr/triples/f8210704> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4e1e864a> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/0afbb7e0> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3008a4f4> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/0afbb7e0> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/98b8cc6a> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/3c96fd55> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/029b83f3> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/3c96fd55> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/73c2d1d1> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/ee2d6dc3> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/cd1f74bb> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/ee2d6dc3> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34120bed> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/f24c3442> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e9bc2f14> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/f24c3442> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7bfb6bc9> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/76d77453> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8334dff5> <http://astragale.cnrs.fr/owl/abcrm/P89_falls_within> <http://astragale.cnrs.fr/triples/76d77453> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7afd47e7> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/845a775f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/7afd47e7> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/a84e4739> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d81301e> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/50af6545> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d81301e> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/5d9b9f40> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ab4ac9d> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/d87c671c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ab4ac9d> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/b461b1ba> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f3dae661> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/0bc163af> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/f3dae661> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/3d9e6b0c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c4717158> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/ad811951> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c4717158> <http://astragale.cnrs.fr/owl/abcrm/P56_bears_feature> <http://astragale.cnrs.fr/triples/354e4c31> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/845a775f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/a84e4739> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/50af6545> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/5d9b9f40> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/d87c671c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/b461b1ba> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/0bc163af> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/3d9e6b0c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/ad811951> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://astragale.cnrs.fr/owl/abcrmsci/O8_observed> <http://astragale.cnrs.fr/triples/354e4c31> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eaf9c325> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/3458035f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ca32e6fd> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/3458035f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ce76568> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/f3dae661> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/f3dae661> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/4ce76568> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/fb4664de> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/d0fd89d6> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/0bc163af> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/c177ed3f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/851ffd38> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/3d9e6b0c> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/31071dd5> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/c4717158> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/c4717158> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/31071dd5> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/1d4329d7> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/980505fa> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/ad811951> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/8ad96f05> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/4034008b> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/owl/abcrmax/Jx1_used_as_premice> <http://astragale.cnrs.fr/triples/354e4c31> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eaf9c325> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/4bfca320> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ca32e6fd> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <https://astragale.cnrs.fr/th/astra-bwtype/structure_maconnee> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ca32e6fd> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/b61ea97f> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ce76568> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/607ece03> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/fcdb4fb3> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/34aaf5ee> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/1faa2afb> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/31071dd5> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/d335f13d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/d4a62819> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/9dd7c21d> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/owl/abcrmax/Jx2_concluded_that> <http://astragale.cnrs.fr/triples/df7ab462> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34aaf5ee> <http://astragale.cnrs.fr/owl/om-2/quantity> <http://astragale.cnrs.fr/th/om/beta> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1faa2afb> <http://astragale.cnrs.fr/owl/om-2/quantity> <http://astragale.cnrs.fr/th/om/beta> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9dd7c21d> <http://astragale.cnrs.fr/owl/om-2/quantity> <http://astragale.cnrs.fr/th/om/beta> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/df7ab462> <http://astragale.cnrs.fr/owl/om-2/quantity> <http://astragale.cnrs.fr/th/om/beta> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/34aaf5ee> <http://astragale.cnrs.fr/owl/om-2/value> "0.0" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1faa2afb> <http://astragale.cnrs.fr/owl/om-2/value> "0.0" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/9dd7c21d> <http://astragale.cnrs.fr/owl/om-2/value> "0.0" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/df7ab462> <http://astragale.cnrs.fr/owl/om-2/value> "0.0" <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/71ed0f9e> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_geometre> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/eaf9c325> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/mod_geom_structure> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b3bb15a3> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-bwtype/structure_maconnee> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ca32e6fd> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/mod_mail_fem> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e28e0fc2> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_geometre> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/39feb4f9> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/845a775f> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/2f25663e> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a84e4739> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/52b2c570> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_geometre> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb348709> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/50af6545> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a715e4d7> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/5d9b9f40> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8cfbf745> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_geometre> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ae82cf1> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/d87c671c> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6a2ca58b> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/b461b1ba> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a0b14157> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_geometre> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/fb4664de> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0bc163af> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/0bc163af> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/c177ed3f> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d9e6b0c> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/3d9e6b0c> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4ce76568> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/mod_geom_structure> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ee93ad53> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/dem_nonsmooth> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/e3288032> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-actdiag/modelisation_endo> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/55ab8c34> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-actdiag/modelisation_endo> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1cb84580> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_geometre> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/1d4329d7> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ad811951> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32565> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/ad811951> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/8ad96f05> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/releve_alterations> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/354e4c31> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://frollo.notre-dame.science/opentheso/th21/32482> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/354e4c31> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-phenomeca/endommagement_mortier> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/31071dd5> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/mod_geom_structure> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/a093d37a> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <https://astragale.cnrs.fr/th/astra-actdiag/dem_nonsmooth> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/6e5d449b> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-actdiag/modelisation_endo> <http://astragale.cnrs.fr/graphs/agraphe> .
+<http://astragale.cnrs.fr/triples/4d308933> <http://astragale.cnrs.fr/owl/abcrmax/Px2_has_type> <http://astragale.cnrs.fr/th/astra-actdiag/modelisation_endo> <http://astragale.cnrs.fr/graphs/agraphe> .

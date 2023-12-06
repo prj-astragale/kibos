@@ -1,0 +1,51 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$__uri__sp4> a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_label" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_label" .})
+};
+
+INSERT {    
+    <$__uri__bw>  a abcrm:E22_Human_Made_Object ;
+        rdfs:label "$builtwork_part_label" .
+    <$__uri__e53>  a abcrm:E53_Place ;
+        rdfs:label "place of $builtwork_part_label" .
+    <$__uri__bw> abcrm:P53_has_former_or_current_location <$__uri__e53> .
+
+    <$__uri__bw>    abcrm:P46i_forms_part_of <$builtwork_uri> .
+    <$__uri__e53>   abcrm:P89_falls_within ?e53_existing .
+
+
+    <$__uri__e16> a abcrm:E16_Measurement ;
+        abcrm:P7_took_place_at <$__uri__e53> ;
+        abcrmsci:O16_observed_value <$__uri__e59> ;
+        abcrmax:Px2_has_type <$measure_type_uri> .
+
+    <$__uri__sp6> a abcrmgeo:SP6_Declarative_Place ;
+        abcrmgeo:Q11_approximates <$__uri__e53> ;
+        abcrmax:Px168_place_is_defined_by <$__uri__e59> ;
+        abcrmax:Qx5_is_defined_in ?sp4 .
+
+    <$__uri__e59> a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  "$resource_uri" ;
+        rdfs:label "$file_label" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        abcrmax:Qx5_is_defined_in ?sp4 .
+    
+    
+
+} WHERE {
+    ?sp4 a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_label" .
+    
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?e53_existing .
+}

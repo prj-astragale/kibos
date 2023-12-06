@@ -1,0 +1,23 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+SELECT ?annotationLayer_label ?annotationLayer_uri ?annotation_tool_type_uri ?bw_label ?bw_uri ?annotationLayer_path ?file_label ?file_creator ?file_format ?file_date
+WHERE {
+    ?annolayer_event a abcrm:E13_Attribute_Assignment ;
+        rdfs:label ?annotationLayer_label ;
+        abcrm:P8_took_place_on_or_within ?bw_uri ;
+        abcrm:P141_assigned ?annotationLayer_uri ;
+        abcrm:Px2_has_type ?annotation_tool_type_uri .
+    
+    ?annotationLayer_uri abcrmax:Px90_has_value ?annotationLayer_path ;
+        rdfs:label  ?file_label ;
+        dc:creator  ?file_creator ;
+        dc:format   ?file_format ;
+        dc:date     ?file_date .
+
+    ?bw_uri rdfs:label ?bw_label .
+}
