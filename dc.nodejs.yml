@@ -1,0 +1,27 @@
+version: "3"
+services:
+  node:
+    image: "node:8"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production   #dev ?
+    volumes:
+      - ./:/home/node/app # ${APP_CONTENT_PATH}
+    expose:
+      - "8081"
+    command: "npm start"
+    networks:
+      - astraglob
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.myastradash.entrypoints=${TRAEFIK_DEFAULT_SERVICES_ENTRYPOINT}
+      - traefik.http.routers.myastradash.rule=Host(`astradash.${HOST_DOMAIN}`)
+      - traefik.http.routers.myastradash.service=myoxigraph
+      - traefik.http.services.myastradash.loadbalancer.server.port=8081
+
+      # - traefik.http.routers.myastradash.middlewares=mybasicauth                   # en-ligne/prod
+
+networks:
+  astraglob:
+    name: astraglob
