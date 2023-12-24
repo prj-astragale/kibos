@@ -1,0 +1,55 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+PREFIX aecrmsci: <http://astragale.map.cnrs.fr/sem/aecrmsci/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$__uri__sp4> a ecrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_title" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x2 a ecrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_title" .})
+};
+# For debug purposes, not for real-world scenario. A built work SHALL preexist.
+# Lines not present in per-uri scenario with uri to E22
+INSERT {
+    <$__uri__debe22> a ecrm:E22_Man-Made_Object ;
+        rdfs:label "$existing_work_title" ;
+        ecrm:P53_has_former_or_current_location <$__uri__debe53>  .
+} WHERE {
+    FILTER(NOT EXISTS{ ?x2 a ecrm:E22_Man-Made_Object ; rdfs:label "$existing_work_title" .})
+};
+INSERT {
+    # GAS
+    <$__uri__sube26> a ecrm:E26_Physical_Feature ;
+        rdfs:label "$feature_title" .
+    <$__uri__sube53> a ecrm:E53_Place ;
+        # rdfs:label "Loc of the feature_title" ;
+        ecrm:P89_falls_within ?bige53 .
+    <$__uri__sube26> ecrm:P53_has_former_or_current_location <$__uri__sube53> ;
+        ecrm:P46i_forms_part_of ?bige22 . # P46i_forms_part_of | P46_is_composed_of
+
+    <$__uri__subsp6> a ecrmgeo:SP6_Declarative_Place ;
+        rdfs:label "$file_title" ;
+        aecrmex:Qx23_has_value "$__resource_path__" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        ecrmgeo:Q11_approximates <$__uri__sube53> ;
+        aecrmex:Qx5_defined_in ?sp4 .
+
+    <$__uri__s4> a aecrmsci:S4_Observation ;
+        rdfs:label "$observation_informal_desc" ;
+        aecrmex:Px2_has_type <$uri_observation_type> ; # e.g:Relevé d'altération ou # Relevé d'une déformation
+        ecrm:P7_took_place_at <$__uri__sube53> ;
+        aecrmex:O16x_observed_value <$uri_observation_value> . # Fissure, Desquamation...
+} WHERE {
+    # GAS
+    ?sp4 a ecrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_title" .
+
+    ?bige22 a ecrm:E22_Man-Made_Object ;
+        rdfs:label "$existing_work_title" .
+        # ecrm:P53_has_former_or_current_location ?bige53 .  
+}

@@ -1,0 +1,14 @@
+{
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$id": "https://astragale.cnrs.fr/schemas/udb00-omabacap_schema.json",
+      "title": "Product",
+      "description": "Builtwork declaration (ie. oambacap's definition)",
+      "type": "object",
+      "properties": {
+        "builtwork_label": {
+          "description": "The informal label of the builtwork",
+          "type": "string"
+        }
+      }
+    }
+    

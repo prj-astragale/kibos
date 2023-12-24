@@ -1,0 +1,31 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$__uri__e13> a abcrm:E13_Attribute_Assignment ;
+        rdfs:label "$annotation_layer_label" ;
+        abcrm:P7_took_place_at ?bw_sp6 ;
+        abcrm:P8_took_place_on_or_within <$builtwork_uri> ;
+        abcrm:P141_assigned <$__uri__e59> ;
+        abcrm:Px2_has_type <$annotation_tool_type_uri> .
+
+    <$__uri__e59> a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  "$resource_uri" ;
+        rdfs:label "$file_label" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" .
+} WHERE {
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?bw_e53 .
+
+    <$geom_uri> abcrmsci:O16_observed_value|abcrmax:Jx2_concluded_that ?e59_geom_ressource_uri .
+    ?e59_geom_ressource_uri a abcrm:E59_Primitive_Value .
+
+    ?bw_sp6 a abcrmgeo:SP6_Declarative_Place ;
+        abcrmgeo:Q11_approximates ?bw_e53 ;
+        abcrmax:Px168_place_is_defined_by ?e59_geom_ressource_uri .
+}

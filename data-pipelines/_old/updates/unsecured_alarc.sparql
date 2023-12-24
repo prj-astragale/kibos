@@ -1,0 +1,24 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+
+INSERT {
+    <$__uri__e13layoli> a acrm:E13_Attribute_Assignment ;
+        acrmex:Qx24_has_archive "$__resource_path__" ;
+        acrmex:Px2_has_type <http://astragale.cnrs.fr/th/tads/releve_aioli> ;
+        rdfs:label  "$file_title" ;
+        dc:creator  "$file_creator" ;
+        dc:format   "$file_format" ;
+        dc:date     "$file_date" ;
+        acrm:P7_took_place_at <$uri_existing_sp6geom> ;
+        acrm:P148_has_component ?e16_existing_meas ;
+        acrm:P129_is_about ?e22_existing . 
+} WHERE {
+    ?e16_existing_meas acrmsci:P141_assigned <$uri_existing_sp6geom> . # a acrm:E16_Measurement
+    <$uri_existing_sp6geom>  acrmgeo:Q11_approximates ?e53_existing . # Parce que c'est un relevé, et qu'une mesure ne concerne qu'une chose
+    ?e22_existing acrm:P53_has_former_or_current_location ?e53_existing .
+}

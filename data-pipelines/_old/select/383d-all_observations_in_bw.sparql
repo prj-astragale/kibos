@@ -1,0 +1,17 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+SELECT * 
+WHERE {
+  	?src_e22 a ecrm:E22_Man-Made_Object ;
+        rdfs:label "$e22_prj_label" ;
+        ecrm:P53_has_former_or_current_location ?src_e53 .
+
+    ?sub_e53 ecrm:P89_falls_within* ?src_e53 ;
+        rdfs:label ?sub_e53l .
+
+    ?s4 ecrm:P7_took_place_at ?sub_e53 ;
+        rdfs:label ?s4l ;
+        aecrmex:Px2_has_type ?s4ty . 
+}

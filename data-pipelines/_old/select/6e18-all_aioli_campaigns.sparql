@@ -1,0 +1,18 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT * 
+WHERE {
+    ?e13 a acrm:E13_Attribute_Assignment ;
+        acrmex:Qx24_has_archive ?s3_arch ;
+        dc:creator  ?crea ;
+        dc:date     ?date ;
+        acrm:P7_took_place_at ?sp6 ;
+        acrm:P129_is_about ?e22_existing . 
+    
+    ?sp6 rdfs:label ?sp6l .
+    ?e22_existing rdfs:label ?e22_existingl .
+}

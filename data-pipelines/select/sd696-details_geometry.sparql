@@ -4,9 +4,11 @@ PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
 PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
 PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
 PREFIX dc:          <http://purl.org/dc/elements/1.1/>
-SELECT ?geom_path ?file_label ?file_creator ?file_format ?file_date ?scrs_geom_label
+SELECT * # ?geom_path ?file_label ?file_creator ?file_format ?file_date ?scrs_geom_label ?geom_premices_uris
 WHERE {
-    <$geom_uri> abcrmax:Px90_has_value ?geom_path ;
+    <$geom_uri> abcrmsci:O16_observed_value|abcrmax:Jx2_concluded_that ?e59_geom_ressource_uri .
+    ?e59_geom_ressource_uri a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value ?geom_ressource_path ;
         rdfs:label  ?file_label ;
         dc:creator  ?file_creator ;
         dc:format   ?file_format ;
@@ -14,4 +16,14 @@ WHERE {
         abcrmax:Qx5_is_defined_in ?sp4 .
     
     ?sp4 rdfs:label ?scrs_geom_label .
+
+    # Use construct instead, dumb flat chained lists.
+    OPTIONAL {
+        <$geom_uri> abcrmax:Jx1_used_as_premice* ?geom_premices_uri .
+        ?geom_premices_uri rdfs:label ?geom_premices_label .
+    }
+    OPTIONAL {
+        ?geom_next_uri abcrmax:Jx1_used_as_premice* <$geom_uri> ;
+            rdfs:label ?geom_next_label .
+    }
 }

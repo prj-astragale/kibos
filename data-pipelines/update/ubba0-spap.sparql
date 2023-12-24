@@ -1,0 +1,11 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+INSERT DATA {
+    # Add a safeguard for input `premice_asevent_uri` and `assertion_asevent_uri`, should be both E5_Event
+    <$premice_asevent_uri> abcrmax:Jx1_used_as_premice <$assertion_asevent_uri> .
+}

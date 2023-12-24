@@ -30,7 +30,7 @@ Provide data from _Astragale_ to the RDF Store using the SPARQL Store API or loa
 + `inlake.localhost/api`: the REST API endpoint 
 
 ### Oxigraph
-A global SELECT query to run at your endpoint to ensure data is loaded in the different named graphs :
+Get the demo data using SPARQL SELECT on the query endpoint (default: `http://oxigraph.localhost/query`)
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -40,6 +40,16 @@ SELECT DISTINCT * WHERE {
   }
 } LIMIT 100
 ```
+
+Clear the demo data using SPARQL CLEAR GRAPH on the update endpoint (default: `http://oxigraph.localhost/update`):
+```
+PREFIX astragraph: <http://astragale.cnrs.fr/graphs/>
+PREFIX astratheso: <http://astragale.cnrs.fr/graphs/th/>
+# CLEAR GRAPH astratheso:th21_icomos ;
+CLEAR GRAPH astragraph:agraphe
+
+```
+
 
 ### Inlake
 Inlake details at : [Inlake](https://git-xen.lmgc.univ-montp2.fr/gros/inlake)

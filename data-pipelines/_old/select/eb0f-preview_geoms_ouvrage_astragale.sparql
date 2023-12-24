@@ -1,0 +1,17 @@
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmsci: <http://astragale.map.cnrs.fr/sem/aecrmsci/>
+PREFIX astra: <http://astragale.cnrs.fr/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+select ?sube22l ?geol ?geof ?geoa ?val { 
+    ?sube22 ecrm:P46i_forms_part_of* <$e22> .
+    ?sube22 ecrm:P53_has_former_or_current_location ?sube53 .
+	?sube22 rdfs:label ?sube22l .
+    ?geo ecrmgeo:Q11_approximates ?sube53 ;
+         rdfs:label ?geol ;
+    	 dc:format ?geof ;
+      	 dc:creator ?geoa ;
+         aecrmex:Qx23_has_value ?val .
+}

@@ -1,0 +1,34 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$__uri__sp4> a acrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_title" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x a acrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_title" .})
+};
+INSERT {    
+    <$__uri__sp6> a acrmgeo:SP6_Declarative_Place ;
+        acrmex:Qx23_has_value  "$__resource_path__" ;
+        rdfs:label "$file_title" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        acrmgeo:Q11_approximates ?e53_existing .
+    <$__uri__sp6> acrmex:Qx5_defined_in ?sp4 .
+
+    <$__uri__s8hyp> a acrmsci:S8_Categorical_Hypothesis_Building ;
+        acrmex:Px2_has_type <$uri_modelisation_type> ; # DEM_geom_modelisation ou Architectural BIM Modeling 
+        acrm:P7_took_place_at ?e53_existing ;
+        acrmsci:P141_assigned <$__uri__sp6> .
+
+} WHERE {
+    ?sp4 a acrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_title" .
+    
+    <$uri_existing_builtwork> acrm:P53_has_former_or_current_location ?e53_existing .
+}

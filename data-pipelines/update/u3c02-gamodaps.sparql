@@ -20,8 +20,7 @@ INSERT {
 
 
 INSERT {
-    <$__uri__bw>  a abcrm:E22_Human_Made_Object ;
-        abcrmax:Px2_has_type <$builtwork_type_uri> .
+    <$builtwork_uri> abcrmax:Px2_has_type <$builtwork_type_uri> .
 
     <$__uri__e16> a abcrmsci:S7_Categorical_Hypothesis_Building ;
         abcrm:P7_took_place_at ?e53_existing ;
@@ -52,5 +51,6 @@ INSERT {
     ?sp4_descriptive_uri a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
          rdfs:label "$scrs_label" .
     
-    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?e53_existing .
+    <$builtwork_uri> a abcrm:E22_Human_Made_Object ;
+        abcrm:P53_has_former_or_current_location ?e53_existing .
 }

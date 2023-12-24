@@ -8,8 +8,14 @@ PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
 
 SELECT *
 WHERE {
-  	<$geom_uri> a abcrm:E59_Primitive_Value ;
+  	# <$geom_uri> a abcrm:E59_Primitive_Value ;
+    #     rdfs:label ?geom_label .
+
+    <$geom_uri> abcrmsci:O16_observed_value|abcrmax:Jx2_concluded_that ?e59_geom_ressource_uri .
+    ?e59_geom_ressource_uri a abcrm:E59_Primitive_Value ;
         rdfs:label ?geom_label .
+
+    # 
 
     ?bw_uri a abcrm:E22_Human_Made_Object ;
         rdfs:label ?bw_label ;
@@ -17,7 +23,7 @@ WHERE {
 
 
     ?sp6_anno_uri abcrmax:Px168_place_is_defined_by ?geom_anno_uri ;
-                  abcrm:P89_falls_within/abcrmax:Px168_place_is_defined_by <$geom_uri> .
+                  abcrm:P89_falls_within/abcrmax:Px168_place_is_defined_by ?e59_geom_ressource_uri . # <$geom_uri>
     
     ?observation_uri abcrmsci:O8_observed ?feat_uri ;
              abcrmsci:O16_observed_value ?feature_type_uri, ?geom_anno_uri .

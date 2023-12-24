@@ -4,6 +4,7 @@ PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
 PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
 PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
 PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
 SELECT *
 WHERE {
   	<$bw_uri> a abcrm:E22_Human_Made_Object ;
@@ -28,9 +29,10 @@ WHERE {
     ?sp6_anno_uri abcrmax:Px168_place_is_defined_by ?geom_anno_uri ;
                   abcrm:P89_falls_within/abcrmax:Px168_place_is_defined_by ?geom_uri .
 
-        # OPTIONAL {
-        #     skoslabel
-        # }
+        OPTIONAL {
+            ?feature_type_uri skos:prefLabel ?feature_skoslabel .
+            FILTER (lang(?feature_skoslabel) = 'fr')
+        }
     }
     
     OPTIONAL {
@@ -47,7 +49,11 @@ WHERE {
     
     ?sp6_anno_uri abcrmax:Px168_place_is_defined_by ?geom_anno_uri ;
                   abcrm:P89_falls_within/abcrmax:Px168_place_is_defined_by ?geom_uri .
+    
+        OPTIONAL {
+            ?feature_type_uri skos:prefLabel ?feature_skoslabel .
+            FILTER (lang(?feature_skoslabel) = 'fr')
+        }
     }
-    
-    
+        
 }

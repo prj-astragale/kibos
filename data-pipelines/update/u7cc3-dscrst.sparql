@@ -1,0 +1,25 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    # <$scrs_a_uri> a abcrmgeo:SP4_Spatial_Coordinate_Reference_System .
+    # <$scrs_b_uri> a abcrmgeo:SP4_Spatial_Coordinate_Reference_System .
+    <$scrs_a_uri> abcrmax:Qx20_is_related_to <$scrs_b_uri> .
+
+    <$__uri__sp16x> a abcrmax:SP16x_Spatial_Transformation ;
+        abcrmax:Qx22_has_transformation_matrix "$a_to_b_trsfmatrix" .
+
+    <$scrs_a_uri> abcrmax:Qx21_is_transformable_by <$__uri__sp16x> .
+    <$__uri__sp16x> abcrmax:abcrmax:Qx21i_transforms <$scrs_b_uri> .
+
+    <$__uri__sp16x> abcrmax:Px129_is_about ?sp6 .
+
+
+} WHERE {  
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?e53_existing .
+    ?sp6 abcrmgeo:Q11_approximates ?src_e53 .
+}

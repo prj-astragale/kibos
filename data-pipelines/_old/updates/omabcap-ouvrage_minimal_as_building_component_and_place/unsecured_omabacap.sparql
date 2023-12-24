@@ -1,0 +1,11 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+INSERT DATA {
+  <$_uri1>  a ecrm:E22_Man-Made_Object ;
+    rdfs:label "$built_work_title" .
+  <$_uri2>  a ecrm:E53_Place ;
+    rdfs:label "$built_work_title" .
+
+  <$_uri1> ecrm:P53_has_former_or_current_location <$_uri2> .
+    
+}

@@ -1,0 +1,9 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+SELECT ?e22 ?e22lab
+WHERE {
+    FILTER NOT EXISTS { ?e22  acrm:P46i_forms_part_of  [] } 
+  	?e22 a acrm:E22_HumanMadeObject .
+    ?e22 rdfs:label ?e22lab .
+    ?e22 acrm:P53_has_former_or_current_location/rdfs:label ?e53lab .
+} LIMIT 20

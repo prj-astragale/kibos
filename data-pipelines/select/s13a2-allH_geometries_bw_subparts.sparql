@@ -9,14 +9,18 @@ WHERE {
     ?bw_uri a abcrm:E22_Human_Made_Object ;
             rdfs:label ?bw_label ;
             abcrm:P53_has_former_or_current_location ?src_e53 ;
-            abcrm:P46i_forms_part_of  ?supbw_uri ;
             abcrm:P46i_forms_part_of* <$bw_uri> .
-    ?supbw_uri  rdfs:label ?supbw_label .
 
-    ?sp6 abcrmgeo:Q11_approximates ?src_e53 ;
+    OPTIONAL {
+        ?bw_uri abcrm:P46i_forms_part_of  ?supbw_uri .
+        ?supbw_uri  rdfs:label ?supbw_label .
+    }
+    
+    OPTIONAL {
+      ?sp6 abcrmgeo:Q11_approximates ?src_e53 ;
     	abcrmax:Qx5_is_defined_in/rdfs:label ?scrs_label ;
         abcrmax:Px168_place_is_defined_by ?geom_uri .
-    
+   
     ?geom_uri abcrmax:Px90_has_value  ?geom_path ;
         rdfs:label  ?file_label ;
         dc:creator  ?file_creator ;
@@ -25,4 +29,5 @@ WHERE {
         abcrmax:Qx5_is_defined_in ?sp4 .
     
     ?sp4 rdfs:label ?scrs_geom_label .
+    }
 }

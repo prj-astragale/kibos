@@ -1,0 +1,31 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX astra: <http://astragale.cnrs.fr/>
+select ?ss_parties ?observations ?geoms3d { 
+    {
+        select (count(?sube22) AS ?ss_parties)
+        { ?sube22 a acrm:E22_HumanMadeObject ; 
+                  acrm:P46i_forms_part_of* <$uri_existing_builtwork> . }
+    }
+    # {
+    #     select (count(?sim) AS ?simulations) 
+    #     { ?sim 	a acrmsci:S7_Simulation ;
+    #       		acrm:P7_took_place_at ?e53 .
+    #       <$uri_existing_builtwork> acrm:P53_has_former_or_current_location ?e53 . 
+    #     } 
+    # }
+    {
+        select (count(?sube26) AS ?observations ) # dummy_graph http://astragale.cnrs.fr/551e9c6d
+        { ?sube26 a acrm:E26_Physical_Feature ; 
+                  acrm:P46i_forms_part_of* <$uri_existing_builtwork> .}
+    }
+    {
+        select (count(?geo) AS ?geoms3d ) # dummy_graph http://astragale.cnrs.fr/c27acc1b
+        { ?sube22 acrm:P46i_forms_part_of <$uri_existing_builtwork> .
+          ?sube22 acrm:P53_has_former_or_current_location ?sube53 .
+          ?geo acrmgeo:Q11_approximates  ?sube53 .} 
+    }  
+}

@@ -1,0 +1,23 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT * 
+WHERE {
+  	<$uri_existing_builtwork> a acrm:E22_HumanMadeObject ;
+        rdfs:label ?e22_lab ; #{{ e22_prj_label }} . # demo_uc11="Fort Écluse de Léaz" .
+        acrm:P53_has_former_or_current_location ?src_e53 .
+    
+    ?sub_e53 acrm:P89_falls_within* ?src_e53 ;
+        rdfs:label ?sub_e53l .
+    
+    ?sub_e22 acrm:P53_has_former_or_current_location ?sub_e53 .
+    
+    ?sub_sp6 acrmgeo:Q11_approximates ?sub_e53 ;
+        rdfs:label ?sub_sp6l ;
+        dc:format ?sub_sp6f ;
+        dc:creator ?sub_sp6a ;
+        acrmex:Qx23_has_value ?sub_sp6bin . 
+}

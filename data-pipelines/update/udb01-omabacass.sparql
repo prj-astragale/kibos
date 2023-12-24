@@ -1,0 +1,14 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm: <http://astragale.cnrs.fr/owl/abcrm/>
+INSERT{    
+    <$__uri__bw>  a abcrm:E22_Human_Made_Object ;
+        rdfs:label "$builtwork_part_label" .
+    <$__uri__e53>  a abcrm:E53_Place ;
+        rdfs:label "place of $builtwork_part_label" .
+    <$__uri__bw> abcrm:P53_has_former_or_current_location <$__uri__e53> .
+
+    <$__uri__bw>    abcrm:P46i_forms_part_of <$builtwork_uri> .
+    <$__uri__e53>   abcrm:P89_falls_within ?e53_existing .
+} WHERE {
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?e53_existing .
+}

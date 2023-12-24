@@ -32,14 +32,14 @@ INSERT {
     <$__uri__e53>   abcrm:P89_falls_within ?e53_existing .
 
     <$__uri__e16> a abcrmsci:S7_Categorical_Hypothesis_Building ;
-        abcrm:P7_took_place_at ?e53_existing ;
+        abcrm:P7_took_place_at <$__uri__e53> ;
         abcrmax:Jx1_used_as_premice <$builtwork_uri> ;
         abcrmax:Jx2_concluded_that <$__uri__e59> ;
         abcrmax:Jx2_concluded_that <$builtwork_type_uri> ;
         abcrmax:Px2_has_type <$model_type_uri> .
 
     <$__uri__sp6> a abcrmgeo:SP6_Declarative_Place ;
-        abcrmgeo:Q11_approximates ?e53_existing ;
+        abcrmgeo:Q11_approximates <$__uri__e53> ;
         abcrmax:Px168_place_is_defined_by <$__uri__e59> ;
         abcrmax:Qx5_is_defined_in ?sp4_descriptive_uri .
 

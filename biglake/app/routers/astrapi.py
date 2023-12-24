@@ -421,8 +421,6 @@ async def get_details_geometry(
 #   / (_-< | '  \ || | / _` |  _| / _ \ ' \(_-<
 #  /_//__/_|_|_|_\_,_|_\__,_|\__|_\___/_||_/__/
 
-
-
 # /builtworks/{builtwork_id}/simulations
 ########################################
 @router.get("/builtworks/{builtwork_id}/simulations")
@@ -476,7 +474,7 @@ async def post_simulation_to_builtwork(
 
     return await produce_record_json_n_binary_unsecured(
         response=response,
-        record=Record(key_inlk="u0cb1-saasg", content=json.dumps(record_with_params)),
+        record=Record(key_inlk="u0cb1-saasg2", content=json.dumps(record_with_params)),
         # file={'file': ('filetitle', data)},
         file=file,  # test: file=UploadFile(file=data)
         kafkaio=_get_client_kafka(),
@@ -571,7 +569,7 @@ async def post_annotation_to_builtwork(
                 return await produce_record_json_n_binary_unsecured(
                     response=response,
                     record=Record(
-                        key_inlk="u1c5b-gafaalt", content=json.dumps(record_with_params)
+                        key_inlk="u1c5b-gafaalt2", content=json.dumps(record_with_params)
                     ),
                     # file={'file': ('filetitle', data)},
                     file=file,  # test: file=UploadFile(file=data)
@@ -582,7 +580,7 @@ async def post_annotation_to_builtwork(
                 return await produce_record_json_n_binary_unsecured(
                     response=response,
                     record=Record(
-                        key_inlk="u1c5a-gafaaltil", content=json.dumps(record_with_params)
+                        key_inlk="u1c5a-gafaaltil2", content=json.dumps(record_with_params)
                     ),
                     # file={'file': ('filetitle', data)},
                     file=file,  # test: file=UploadFile(file=data)
@@ -624,14 +622,15 @@ async def get_geom_id_annofeats(
         )
         return JSONResponse(content=result)
     else:
-        result = triplestore.select_templated(
-            query_filename="s16eb-allH_observations_geom.sparql",
-            override_named_graph_uri=[triplestore.default_named_graph_uri, "http://astragale.cnrs.fr/graphs/th/th21_icomos"],
-            format="dict",
-            geom_uri=triplestore.config["default_triples_root_uri"] + geometry_id,
-            # enforce_parameters={"annotype": creator},
-        )
-        return JSONResponse(content=result)
+        raise HTTPException(status_code=422, detail="Not Implemented")
+        # result = triplestore.select_templated(
+        #     query_filename="s2a7a-all_annotations_bw.sparql",
+        #     override_named_graph_uri=[triplestore.default_named_graph_uri, "http://astragale.cnrs.fr/graphs/th/th21_icomos"],
+        #     format="dict",
+        #     geom_uri=triplestore.config["default_triples_root_uri"] + geometry_id,
+        #     # enforce_parameters={"annotype": creator},
+        # )
+        # return JSONResponse(content=result)
 
     
 
@@ -659,7 +658,7 @@ async def get_bw_id_annofeats(
         return JSONResponse(content=result)
     else:
         result = triplestore.select_templated(
-            query_filename="s2a7a-all_annotations_bw.sparql",
+            query_filename="s16ea-allH_observations_bw.sparql",
             override_named_graph_uri=[triplestore.default_named_graph_uri, "http://astragale.cnrs.fr/graphs/th/th21_icomos"],
             format="dict",
             bw_uri=triplestore.config["default_triples_root_uri"] + builtwork_id,
@@ -812,7 +811,7 @@ async def post_annotationLayer_to_geometry(
 
     return await produce_record_json_n_binary_unsecured(
         response=response,
-        record=Record(key_inlk="uadf7-alag", content=json.dumps(record_with_params)),
+        record=Record(key_inlk="uadf7-alag2", content=json.dumps(record_with_params)),
         # file={'file': ('filetitle', data)},
         file=file,  # test: file=UploadFile(file=data)
         kafkaio=_get_client_kafka(),
@@ -971,7 +970,7 @@ async def process_annotationLayers_extract_archives_in_s3(
 
 
 # /annotationLayers/{annotationLayer_id}/LoadGeometryAnnotations
-########################################################
+################################################################
 @router.get("/annotationLayers/{annotationLayer_id}/LoadGeometryAnnotations")
 async def process_annotationLayers_load_annotations_from_s3(
     req: Request,

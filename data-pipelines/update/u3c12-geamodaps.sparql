@@ -1,0 +1,51 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+
+# No filter for primite URI, shall exist
+INSERT {
+    <$__uri__sp4_descriptive> a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_label" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_label" .})
+};
+
+INSERT {
+    <$builtwork_uri> abcrmax:Px2_has_type ?builtwork_type_uri .
+
+    <$__uri__s7> a abcrmsci:S7_Categorical_Hypothesis_Building ;
+        abcrm:P7_took_place_at ?e53_existing ;
+        abcrmax:Jx1_used_as_premice <$builtwork_uri> ;
+        abcrmax:Jx1_used_as_premice <$geom_uri> ;
+        abcrmax:Jx2_concluded_that ?e59_geom_ressource_uri ;
+        abcrmax:Jx2_concluded_that ?builtwork_type_uri ;
+        abcrmax:Px2_has_type ?modelisation_type_uri .
+
+    <$__uri__sp6> a abcrmgeo:SP6_Declarative_Place ;
+        abcrmgeo:Q11_approximates ?e53_existing ;
+        abcrmax:Px168_place_is_defined_by ?e59_geom_ressource_uri ;
+        abcrmax:Qx5_is_defined_in ?sp4_newscrs_descriptive_uri .
+
+    ?sp4_newscrs_descriptive_uri abcrmax:Qx20_is_related_to ?sp4_primitive_uri .
+
+} WHERE {
+    ?sp4_newscrs_descriptive_uri a abcrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_label" .
+
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?e53_existing .
+
+    <$geom_uri> abcrmsci:O16_observed_value|abcrmax:Jx2_concluded_that ?e59_geom_ressource_uri, ?builtwork_type_uri ;
+        abcrmax:Jx1_used_as_premice ?original_modelled_bw_uri ;
+        abcrmax:Jx2_concluded_that ?builtwork_type_uri ;
+        abcrmax:Px2_has_type ?modelisation_type_uri .
+    
+    ?original_modelled_bw_uri a abcrm:E22_Human_Made_Object ;
+        abcrmax:Px2_has_type ?builtwork_type_uri .
+
+    ?e59_geom_ressource_uri a abcrm:E59_Primitive_Value ;
+        abcrmax:Qx5_is_defined_in ?sp4_primitive_uri .
+}

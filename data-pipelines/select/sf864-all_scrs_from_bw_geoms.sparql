@@ -1,0 +1,28 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+
+# Avoiding union or binding, in the end every SCRS is held by the geometry, even if it is abstracted.
+SELECT DISTINCT ?bw_label ?scrs_label ?scrs_uri ?scrs_related_uri ?scrs_related_label ?spatial_trsf_uri ?spatial_trsf_matrix
+WHERE {
+    <$bw_uri> a abcrm:E22_Human_Made_Object ;
+                                               rdfs:label ?bw_label .
+    ?sp6 abcrmgeo:Q11_approximates ?src_e53 ;
+        abcrmax:Px168_place_is_defined_by/abcrmax:Qx5_is_defined_in ?scrs_uri .
+    
+    ?scrs_uri rdfs:label ?scrs_label .
+    OPTIONAL 
+    {
+    	?scrs_uri abcrmax:Qx20_is_related_to ?scrs_related_uri ;
+                  abcrmax:Qx20_is_related_to/rdfs:label ?scrs_related_label ;
+        
+        OPTIONAL {
+            ?scrs_uri abcrmax:Qx21_is_transformable_by|abcrmax:abcrmax:Qx21i_transforms ?spatial_trsf_uri .
+            ?spatial_trsf_uri abcrmax:Qx22_has_transformation_matrix ?spatial_trsf_matrix ;
+                abcrmax:Px129_is_about ?sp6 . # Ensure transformation matrix concerns the right abstract geometry
+        }
+     }
+}

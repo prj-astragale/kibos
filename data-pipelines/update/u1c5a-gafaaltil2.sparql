@@ -1,0 +1,65 @@
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX abcrm:       <http://astragale.cnrs.fr/owl/abcrm/>
+PREFIX abcrmgeo:    <http://astragale.cnrs.fr/owl/abcrmgeo/>
+PREFIX abcrmsci:    <http://astragale.cnrs.fr/owl/abcrmsci/>
+PREFIX abcrmax:     <http://astragale.cnrs.fr/owl/abcrmax/>
+PREFIX dc:          <http://purl.org/dc/elements/1.1/>
+PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
+
+INSERT {    
+    <$__uri__s4> a abcrmsci:S4_Observation ;
+        abcrmax:Px2_has_type <$observation_type_uri> ;
+        abcrmsci:O16_observed_value <$__uri__e59>,
+                                    <$feature_type_uri> ;
+        abcrmsci:O8_observed <$__uri__e26> ;
+        abcrm:P7_took_place_at <$__uri__e53> ;
+        rdfs:label "obs-$feature_label" .
+
+    ?e13 abcrm:P20_had_specific_purpose <$__uri__s4> .
+
+    # <$annotationLayer_uri> abcrm:P20_had_specific_purpose <$__uri__s4> .
+
+    <$__uri__e26> a abcrm:E26_Physical_Feature ;
+        abcrmax:Px2_has_type <$feature_type_uri> ;
+        rdfs:label "$feature_label" ;
+        abcrm:P53_has_former_or_current_location <$__uri__e53> .
+
+    <$builtwork_uri> abcrm:P56_bears_feature <$__uri__e26> .
+
+    <$__uri__e53> a abcrm:E53_Place ;
+        rdfs:label "pl-$feature_label" .
+
+    <$__uri__sp6> a abcrmgeo:SP6_Declarative_Place ;
+        abcrmgeo:Q11_approximates <$__uri__e53> ;
+        abcrmax:Px168_place_is_defined_by <$__uri__e59> ;
+        abcrm:P89_falls_within ?bw_sp6 ;
+        abcrmax:Qx5_is_defined_in ?bw_scrs .
+
+
+    <$__uri__e59> a abcrm:E59_Primitive_Value ;
+        abcrmax:Px90_has_value  "$resource_uri" ;
+        rdfs:label "$file_label" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        abcrmax:Qx5_is_defined_in ?bw_scrs_geom .
+    
+    
+
+} WHERE {   
+    <$builtwork_uri> abcrm:P53_has_former_or_current_location ?bw_e53 .
+
+    <$geom_uri> abcrmsci:O16_observed_value|abcrmax:Jx2_concluded_that ?e59_geom_ressource_uri .
+    
+    ?e59_geom_ressource_uri a abcrm:E59_Primitive_Value ;
+        abcrmax:Qx5_is_defined_in ?bw_scrs_geom .
+    
+    ?bw_sp6 a abcrmgeo:SP6_Declarative_Place ;
+        abcrmgeo:Q11_approximates ?bw_e53 ;
+        abcrmax:Px168_place_is_defined_by ?e59_geom_ressource_uri ;
+        abcrmax:Qx5_is_defined_in ?bw_scrs .
+
+    ?e13 a abcrm:E13_Attribute_Assignment ;
+            abcrm:P141_assigned <$annotationLayer_uri> .
+
+}

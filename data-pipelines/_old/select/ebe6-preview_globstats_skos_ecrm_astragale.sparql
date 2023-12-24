@@ -1,0 +1,26 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmsci: <http://astragale.map.cnrs.fr/sem/aecrmsci/>
+select ?concept_schemes ?ouvrages ?geoms3d ?simulations ?annotations { 
+    {
+        select (count(?cs) AS ?concept_schemes)
+        { ?cs a skos:ConceptScheme . }
+    }
+    {
+        select (count(?e22) AS ?ouvrages) 
+        { ?e22 a ecrm:E22_Man-Made_Object . } 
+    }
+    {
+        select (count(?geo) AS ?geoms3d) 
+        { ?tmp3d a ecrmgeo:SP6_Declarative_Place . } 
+    }
+    {
+        select (count(?sim) AS ?simulations) 
+        { ?sim a aecrmsci:S7_Simulation . } 
+    }
+    {
+        select (count(?obs_anno) AS ?annotations ) 
+        { ?obs_anno a aecrmsci:S4_Observation . } 
+    }  
+}

@@ -1,0 +1,31 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+PREFIX aecrmsci: <http://astragale.map.cnrs.fr/sem/aecrmsci/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$_uri_s7sim> a aecrmsci:S7_Simulation ; ;
+        aecrmex:Qx24_has_archive "$__resource_path__"
+        aecrmex:Px2_has_type <$uri_simulation_type> ;
+        rdfs:label  "$file_title" ;
+        dc:creator  "$file_creator" ;
+        dc:format   "$file_format" ;
+        dc:date     "$file_date" ;
+        ecrm:P7_took_place_at ?sp6_my_geom ;
+        ecrm:P148_has_component ?s8_modelisation_msh ;
+        ecrm:P129_is_about ?bige22 . 
+} WHERE {
+    ?sp6_my_geom a ecrmgeo:SP6_Declarative_Place ;
+        rdfs:label "$existing_geom_reference_title" .
+    ?s8_modelisation_msh aecrmsci:P141_assigned ?sp6_my_geom .
+
+    ?bige22 a ecrm:E22_Man-Made_Object ;
+        rdfs:label "$existing_work_title" .
+        # ecrm:P53_has_former_or_current_location ?bige53 .  
+
+    ?bige22 a ecrm:E22_Man-Made_Object ;
+        ecrm:P53_has_former_or_current_location ?bige53 .  
+}

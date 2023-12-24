@@ -1,0 +1,24 @@
+title: ouvrage_minimal_as_building_component_and_place
+identifier: omabcap
+status: wip
+description: This pipeline aims to declare a building studied, in the minimal way, as a physical object and the extents of the place it defines.
+ontology:
+  - ["ecrm",  "http://erlangen-crm.org/170309/"]
+  - ["owl",   "http://www.w3.org/2002/07/owl#"]
+  - ["rdf",   "http://www.w3.org/1999/02/22-rdf-syntax-ns#"]
+  - ["rdfs",  "http://www.w3.org/2000/01/rdf-schema#"]
+  - ["xsd",   "http://www.w3.org/2001/XMLSchema#"]
+ontology.classes:
+  - ["ecrm", "E22_Man_Made_Object"]
+  - ["ecrm", "E53_Place"]
+  - ["ecrm", "E41_Appelation"]
+ontology.properties.object:
+  - ["ecrm", "P53_has_former_or_current_location"]
+  - ["rdfs", "P1_identifies"]
+  - ["rdfs", "label"]
+  - ["rdfs", "type"]
+ontology.property.data:
+thesaurus: 
+author: Antoine Gros
+version: v1
+date: 2023-01-09

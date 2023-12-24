@@ -1,0 +1,45 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT {
+    <$__uri__sp4> a acrmgeo:SP4_Spatial_Coordinate_Reference_System ;
+        rdfs:label "$scrs_title" .  
+} WHERE {
+    FILTER(NOT EXISTS{ ?x a acrmgeo:SP4_Spatial_Coordinate_Reference_System ; rdfs:label "$scrs_title" .})
+};
+INSERT {
+    # New subplace (e22/e53) linked to existing (e22/e53) (omabacap)
+    <$__uri__sube22>  a acrm:E22_HumanMadeObject ;
+        rdfs:label "$subwork_title" ;
+        acrm:P46i_forms_part_of <$uri_existing_builtwork> . # P46i_forms_part_of | P46_is_composed_of
+    <$__uri__sube53>  a acrm:E53_Place ;
+        rdfs:label "(loc) $subwork_title" ;
+        acrm:P89_falls_within ?e53_existing .
+
+    <$__uri__sube22> acrm:P53_has_former_or_current_location <$__uri__sube53> .
+
+    # Defining subgeom (sp6) related to the subplace
+    <$__uri__sp6> a acrmgeo:SP6_Declarative_Place ;
+        acrmex:Qx23_has_value  "$__resource_path__" ;
+        rdfs:label "$file_title" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        acrmgeo:Q11_approximates <$__uri__sube53> .
+    <$__uri__sp6> acrmex:Qx5_defined_in ?sp4 .
+
+    <$__uri__e16mea> a acrm:E16_Measurement ;
+        acrmex:Px2_has_type <$uri_measure_type> ; # Relevé architectural, topo, bathymétrique....
+        acrm:P7_took_place_at <$__uri__sube53> ;
+        acrmsci:P141_assigned <$__uri__sp6> .
+
+} WHERE {
+    ?sp4 a acrmgeo:SP4_Spatial_Coordinate_Reference_System ; 
+         rdfs:label "$scrs_title" .
+    
+    <$uri_existing_builtwork> acrm:P53_has_former_or_current_location ?e53_existing .
+}

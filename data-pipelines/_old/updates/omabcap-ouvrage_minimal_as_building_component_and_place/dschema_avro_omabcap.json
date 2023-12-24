@@ -1,0 +1,9 @@
+{
+    "type": "record",
+    "name": "ouvrage_minimal_as_building_component_and_place",
+    "namespace": "kibo.astragale.projet",
+    "doc": "This pipeline aims to declare a building studied, in the minimal way, as a physical object and the extents of the place it defines",
+    "fields": [
+      {"name": "built_work_title", "type": "string"}
+    ]
+  }

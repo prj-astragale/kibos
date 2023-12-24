@@ -1,0 +1,26 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX acrm: <http://astragale.cnrs.fr/sem/acrm/>
+PREFIX acrmex: <http://astragale.cnrs.fr/sem/acrmmex/>
+PREFIX acrmsci: <http://astragale.cnrs.fr/sem/acrmsci/>
+PREFIX acrmgeo: <http://astragale.cnrs.fr/sem/acrmgeo/>
+PREFIX astra: <http://astragale.cnrs.fr/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select ?sub_e22l ?feati5l ?i5val ?i5typ ?featurl { 
+#    <http://astragale.cnrs.fr/triples/4f7e8373>
+    ?sub_e22 acrm:P46i_forms_part_of* <$uri_existing_builtwork> ;
+    	 a acrm:E22_HumanMadeObject ;
+         rdfs:label ?sub_e22l .
+    
+    ?feate26 a acrm:E26_Physical_Feature ; 
+        acrm:P46i_forms_part_of* ?sub_e22;
+#    	rdfs:label ?feate26l ;
+    	acrm:P53_has_former_or_current_location ?feate53 .
+    
+    ?featsp6 acrmgeo:Q11_approximates ?feate53 .
+    ?featsp6 acrmex:Qx23_has_value ?featurl .
+    
+    ?feati5 acrm:P7_took_place_at ?feate53 ;
+            rdfs:label ?feati5l ;
+            acrmex:Px2_has_type ?i5typ ;
+            acrmex:O16x_observed_value ?i5val .
+}

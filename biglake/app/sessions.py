@@ -27,6 +27,7 @@ triplestore = TripleStore(
     config={
         "default_triples_root_uri": os.environ["SPARQL_DEFAULT_ROOT_URI"],
         "default_named_graph_root_uri": os.environ["SPARQL_DEFAULT_NAMED_GRAPH_ROOT_URI"],
+        "thesaurus_named_graph_full_uris": ["http://astragale.cnrs.fr/graphs/th/all"],
         "default_named_graph_name": os.environ["SPARQL_DEFAULT_NAMED_GRAPH_NAME"],
         "datapip_sparql_select_path": "/data/sparql-select",  # Load `/data/sparql-select` directory with DockerFile or Compose File
     },

@@ -12,9 +12,9 @@ WHERE {
     
     ?sp6 abcrmgeo:Q11_approximates ?src_e53 ;
         abcrmax:Qx5_is_defined_in/rdfs:label ?scrs_label ;
-        abcrmax:Px168_place_is_defined_by ?geom_uri .
+        abcrmax:Px168_place_is_defined_by ?e59_geom_ressource_uri .
     
-    ?geom_uri abcrmax:Px90_has_value  ?geom_path ;
+    ?e59_geom_ressource_uri abcrmax:Px90_has_value ?geom_ressource_path ;
         rdfs:label  ?file_label ;
         dc:creator  ?file_creator ;
         dc:format   ?file_format ;

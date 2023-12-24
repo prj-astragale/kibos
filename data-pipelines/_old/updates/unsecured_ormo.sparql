@@ -1,0 +1,13 @@
+# unsecured-ormo orphaned_model
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dty: <http://purl.org/dc/terms/DCMIType/>
+
+INSERT DATA {    
+    <$__uri__m1> a dty:Image ;
+        dc:title "$file_title" ;
+        dc:creator "$file_creator" ;
+        dc:format "$file_format" ;
+        dc:date "$file_date" ;
+        dc:source "$__resource_path__" .
+}

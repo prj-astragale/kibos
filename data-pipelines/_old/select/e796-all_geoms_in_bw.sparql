@@ -1,0 +1,19 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+SELECT * 
+WHERE {
+  	?src_e22 a ecrm:E22_Man-Made_Object ;
+        rdfs:label "$e22_prj_label" ; #{{ e22_prj_label }} . # demo_uc11="Fort Écluse de Léaz" .
+        ecrm:P53_has_former_or_current_location ?src_e53 .
+    
+    ?sub_e53 ecrm:P89_falls_within* ?src_e53 ;
+        rdfs:label ?sub_e53l .
+    
+    ?sub_e22 ecrm:P53_has_former_or_current_location ?sub_e53 .
+    
+    ?sub_sp6 ecrmgeo:Q11_approximates ?sub_e53 ;
+        rdfs:label ?sub_sp6l ;
+        aecrmex:Qx23_has_value ?sub_sp6bin . 
+}

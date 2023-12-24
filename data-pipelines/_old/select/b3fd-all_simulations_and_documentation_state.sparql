@@ -1,0 +1,36 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+PREFIX aecrmsci: <http://astragale.map.cnrs.fr/sem/aecrmsci/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?s7_sim ?i5 ?i5type ?my_place ?lab
+WHERE {
+    ?s7_sim a aecrmsci:S7_Simulation ;
+        rdfs:label ?label ;
+        aecrmex:Px2_has_type ?uri_type ; # uri_DEM NSCD, FEM Morenon...
+        # aecrmex:Qx23_has_value ?data_path ;
+        # dc:creator ?creator ;
+        # dc:format ?format ;
+        # dc:date ?date ;
+        ecrm:P148_has_component* ?i5 ;
+        ecrm:P7_took_place_at/rdfs:label ?geom_name .
+    
+    ?i5 aecrmex:Px2_has_type ?i5type .
+    
+    # GEOM
+    OPTIONAL {
+        ?i5 ecrm:P7_took_place_at ?my_place ;
+    }
+
+    # CONDITIONS LIMITES
+    OPTIONAL {
+        ?i5 aecrmsci:P141_assigned/rdfs:label ?lab ;
+    }
+    
+    # OPTIONAL {
+    #     ?s7_sim aecrmex:Px2_has_type/skos:prefLabel ?type .
+    # }
+}

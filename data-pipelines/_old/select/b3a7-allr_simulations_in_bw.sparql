@@ -1,0 +1,33 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ecrm: <http://erlangen-crm.org/170309/>
+PREFIX ecrmgeo: <http://erlangen-crm.org/ecrmgeo/>
+PREFIX aecrmex: <http://astragale.map.cnrs.fr/sem/aecrmex/>
+PREFIX aecrmsci: <http://astragale.map.cnrs.fr/sem/aecrmsci/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT *
+WHERE {
+    ?sube22 ecrm:P46i_forms_part_of* <$e22> . # <$e22> <http://astragale.cnrs.fr/7cb9bb91> 
+    ?sube22 rdfs:label ?sube22l .
+                                        
+    ?s7_sim a aecrmsci:S7_Simulation ;
+        rdfs:label ?sim_label ;
+        aecrmex:Px2_has_type ?skos_type ;
+        ecrm:P129_is_about ?sube22 ;
+        aecrmex:Qx23_has_value ?s3archive ;
+    
+    # GEOM
+    OPTIONAL {
+        ?s7_sim ecrm:P7_took_place_at ?sp6 ;
+                rdfs:label ?my_geoml ;
+                aecrmex:Qx23_has_value ?s3geom ;
+        # ?my_geom rdfs:label ?my_geoml .
+    }
+
+    # CONDITIONS LIMITES
+    # OPTIONAL {
+    #     ?i5 aecrmsci:P141_assigned/rdfs:label ?lab ;
+    # }
+}

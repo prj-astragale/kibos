@@ -4,8 +4,18 @@ SELECT *
 WHERE {
   	?bw_uri a abcrm:E22_Human_Made_Object .
     ?bw_uri rdfs:label ?bw_label .
+
     OPTIONAL {
     	?bw_uri abcrm:P46i_forms_part_of  ?supbw_uri .
         ?supbw_uri  rdfs:label ?supbw_label .
     } 
+    
+    OPTIONAL {
+      ?bw_uri abcrmax:Px2_has_type ?bw_type_uri ;
+      
+      OPTIONAL {
+        ?bw_type_uri skos:prefLabel ?bw_skoslabel .
+              FILTER (lang(?bw_skoslabel) = 'fr')
+      }
+    }
 }
