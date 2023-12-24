@@ -3,7 +3,7 @@
 # Default volumes
 data-graphdb/
 data-minio/
-data-oxygraph/
+data-oxigraph/
 data43/
 
 # Clones and images
