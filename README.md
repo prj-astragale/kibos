@@ -1,8 +1,25 @@
-# KIBOS Lite
+# Kibos
 <!-- What it is ? -->
 
 
 <!-- Motivation -->
+Kibos is the knowledge system supporting the [Astragale Project](https://github.com/prj-astragale)
+
+> \[!WARNING]
+>
+> Please be aware that Kibos is currently under active development.
+
+<details>
+<summary><kbd>Table of contents</kbd></summary>
+
+#### TOC
+
+- [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
+- [✨ Feature Overview](#-feature-overview)
+- [⌨️ Local Development](#️-local-development)
+
+####
+</details>
 
 
 ### Features
@@ -13,7 +30,6 @@
 + API and Data Gateway: [Inlake](https://git-xen.lmgc.univ-montp2.fr/gros/inlake) 
 + Reverse proxying : Traefik
 
-### Status
 
 
 
